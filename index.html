@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Recommendation System</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <div>
+        <h1>Music Recommendation System</h1>
+        <form id="musicForm">
+            <label for="mood">Mood:</label>
+            <select id="mood" name="mood">
+                <option>Happy</option>
+                <option>Sad</option>
+                <option>Relaxed</option>
+                <option>Energetic</option>
+                <option>Romantic</option>
+            </select>
+
+            <label for="activity">Activity:</label>
+            <select id="activity" name="activity">
+                <option>Studying</option>
+                <option>Working Out</option>
+                <option>Sleeping</option>
+                <option>Commuting</option>
+                <option>Partying</option>
+                <option>Chilling</option>
+            </select>
+
+            <label for="language">Language:</label>
+            <select id="language" name="language">
+                <option>English</option>
+                <option>Hindi</option>
+                <option>Telugu</option>
+                <option>Tamil</option>
+                <option>Bengali</option>
+                <option>Marathi</option>
+                <option>Gujarati</option>
+                <option>Kannada</option>
+                <option>Malayalam</option>
+                <option>Punjabi</option>
+                <option>Spanish</option>
+                <option>French</option>
+                <option>German</option>
+                <option>Italian</option>
+                <option>Japanese</option>
+                <option>Korean</option>
+                <option>Portuguese</option>
+                <option>Arabic</option>
+                <option>Russian</option>
+                <option>Turkish</option>
+                <option>Dutch</option>
+                <option>Swedish</option>
+                <option>Chinese (Mandarin, Cantonese)</option>
+            </select>
+
+            <label for="genre">Genre:</label>
+            <select id="genre" name="genre">
+                <option>Pop</option>
+                <option>Rock</option>
+                <option>Hip-Hop/Rap</option>
+                <option>Jazz</option>
+                <option>Classical</option>
+                <option>R&B/Soul</option>
+                <option>Country</option>
+                <option>Electronic/Dance (EDM)</option>
+                <option>Reggae</option>
+                <option>Metal</option>
+                <option>Folk</option>
+                <option>Blues</option>
+                <option>Latin</option>
+                <option>Bollywood</option>
+                <option>K-Pop</option>
+                <option>Reggaeton</option>
+                <option>Indie</option>
+                <option>Experimental</option>
+                <option>World Music</option>
+                <option>Chillout</option>
+                <option>Lo-Fi</option>
+                <option>Acoustic</option>
+                <option>Punk</option>
+                <option>Funk</option>
+                <option>Gospel</option>
+                <option>Ambient</option>
+                <option>Trance</option>
+                <option>House</option>
+                <option>Techno</option>
+            </select>
+
+            <label for="tempo">Tempo:</label>
+            <select id="tempo" name="tempo">
+                <option>Slow</option>
+                <option>Moderate</option>
+                <option>Fast</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="results" class="results"></div> <!-- Placeholder for results -->
+    </div>
+    <script src="script.js"></script> <!-- Link to external JavaScript -->
+</body>
+</html>
